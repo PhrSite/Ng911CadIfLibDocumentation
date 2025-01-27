@@ -102,18 +102,24 @@ references:
   fullName: Ng911CadIfLib.Ng911CadIfServer
   nameWithType: Ng911CadIfServer
 - uid: Ng911CadIfLib.Ng911CadIfServer.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Net.IPEndPoint,System.String,System.String,I3V3.LoggingHelpers.I3LogEventClientMgr,Ng911CadIfLib.CadIfLoggingSettings,Ng911CadIfLib.MutualAuthenticationDelegate,Ng911CadIfLib.EidoRetrievalCallbackDelegate)
-  name: Ng911CadIfServer(X509Certificate2, IPEndPoint, String, String, I3LogEventClientMgr, CadIfLoggingSettings, MutualAuthenticationDelegate, EidoRetrievalCallbackDelegate)
+  name: Ng911CadIfServer(X509Certificate2, IPEndPoint, string, string, I3LogEventClientMgr, CadIfLoggingSettings, MutualAuthenticationDelegate, EidoRetrievalCallbackDelegate)
   href: api/Ng911CadIfLib.Ng911CadIfServer.html#Ng911CadIfLib_Ng911CadIfServer__ctor_System_Security_Cryptography_X509Certificates_X509Certificate2_System_Net_IPEndPoint_System_String_System_String_I3V3_LoggingHelpers_I3LogEventClientMgr_Ng911CadIfLib_CadIfLoggingSettings_Ng911CadIfLib_MutualAuthenticationDelegate_Ng911CadIfLib_EidoRetrievalCallbackDelegate_
   commentId: M:Ng911CadIfLib.Ng911CadIfServer.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Net.IPEndPoint,System.String,System.String,I3V3.LoggingHelpers.I3LogEventClientMgr,Ng911CadIfLib.CadIfLoggingSettings,Ng911CadIfLib.MutualAuthenticationDelegate,Ng911CadIfLib.EidoRetrievalCallbackDelegate)
-  fullName: Ng911CadIfLib.Ng911CadIfServer.Ng911CadIfServer(System.Security.Cryptography.X509Certificates.X509Certificate2, System.Net.IPEndPoint, System.String, System.String, I3V3.LoggingHelpers.I3LogEventClientMgr, Ng911CadIfLib.CadIfLoggingSettings, Ng911CadIfLib.MutualAuthenticationDelegate, Ng911CadIfLib.EidoRetrievalCallbackDelegate)
-  nameWithType: Ng911CadIfServer.Ng911CadIfServer(X509Certificate2, IPEndPoint, String, String, I3LogEventClientMgr, CadIfLoggingSettings, MutualAuthenticationDelegate, EidoRetrievalCallbackDelegate)
+  name.vb: New(X509Certificate2, IPEndPoint, String, String, I3LogEventClientMgr, CadIfLoggingSettings, MutualAuthenticationDelegate, EidoRetrievalCallbackDelegate)
+  fullName: Ng911CadIfLib.Ng911CadIfServer.Ng911CadIfServer(System.Security.Cryptography.X509Certificates.X509Certificate2, System.Net.IPEndPoint, string, string, I3V3.LoggingHelpers.I3LogEventClientMgr, Ng911CadIfLib.CadIfLoggingSettings, Ng911CadIfLib.MutualAuthenticationDelegate, Ng911CadIfLib.EidoRetrievalCallbackDelegate)
+  fullName.vb: Ng911CadIfLib.Ng911CadIfServer.New(System.Security.Cryptography.X509Certificates.X509Certificate2, System.Net.IPEndPoint, String, String, I3V3.LoggingHelpers.I3LogEventClientMgr, Ng911CadIfLib.CadIfLoggingSettings, Ng911CadIfLib.MutualAuthenticationDelegate, Ng911CadIfLib.EidoRetrievalCallbackDelegate)
+  nameWithType: Ng911CadIfServer.Ng911CadIfServer(X509Certificate2, IPEndPoint, string, string, I3LogEventClientMgr, CadIfLoggingSettings, MutualAuthenticationDelegate, EidoRetrievalCallbackDelegate)
+  nameWithType.vb: Ng911CadIfServer.New(X509Certificate2, IPEndPoint, String, String, I3LogEventClientMgr, CadIfLoggingSettings, MutualAuthenticationDelegate, EidoRetrievalCallbackDelegate)
 - uid: Ng911CadIfLib.Ng911CadIfServer.#ctor*
   name: Ng911CadIfServer
   href: api/Ng911CadIfLib.Ng911CadIfServer.html#Ng911CadIfLib_Ng911CadIfServer__ctor_
   commentId: Overload:Ng911CadIfLib.Ng911CadIfServer.#ctor
   isSpec: "True"
+  name.vb: New
   fullName: Ng911CadIfLib.Ng911CadIfServer.Ng911CadIfServer
+  fullName.vb: Ng911CadIfLib.Ng911CadIfServer.New
   nameWithType: Ng911CadIfServer.Ng911CadIfServer
+  nameWithType.vb: Ng911CadIfServer.New
 - uid: Ng911CadIfLib.Ng911CadIfServer.EidoRequestReceived
   name: EidoRequestReceived
   href: api/Ng911CadIfLib.Ng911CadIfServer.html#Ng911CadIfLib_Ng911CadIfServer_EidoRequestReceived
@@ -145,14 +151,14 @@ references:
   isSpec: "True"
   fullName: Ng911CadIfLib.Ng911CadIfServer.SendEido
   nameWithType: Ng911CadIfServer.SendEido
-- uid: Ng911CadIfLib.Ng911CadIfServer.SendEidosToSubscriber(System.String,List{Eido.EidoType})
-  name: SendEidosToSubscriber(String, List<EidoType>)
-  href: api/Ng911CadIfLib.Ng911CadIfServer.html#Ng911CadIfLib_Ng911CadIfServer_SendEidosToSubscriber_System_String_List_Eido_EidoType__
-  commentId: M:Ng911CadIfLib.Ng911CadIfServer.SendEidosToSubscriber(System.String,List{Eido.EidoType})
+- uid: Ng911CadIfLib.Ng911CadIfServer.SendEidosToSubscriber(System.String,System.Collections.Generic.List{Eido.EidoType})
+  name: SendEidosToSubscriber(string, List<EidoType>)
+  href: api/Ng911CadIfLib.Ng911CadIfServer.html#Ng911CadIfLib_Ng911CadIfServer_SendEidosToSubscriber_System_String_System_Collections_Generic_List_Eido_EidoType__
+  commentId: M:Ng911CadIfLib.Ng911CadIfServer.SendEidosToSubscriber(System.String,System.Collections.Generic.List{Eido.EidoType})
   name.vb: SendEidosToSubscriber(String, List(Of EidoType))
-  fullName: Ng911CadIfLib.Ng911CadIfServer.SendEidosToSubscriber(System.String, List<Eido.EidoType>)
-  fullName.vb: Ng911CadIfLib.Ng911CadIfServer.SendEidosToSubscriber(System.String, List(Of Eido.EidoType))
-  nameWithType: Ng911CadIfServer.SendEidosToSubscriber(String, List<EidoType>)
+  fullName: Ng911CadIfLib.Ng911CadIfServer.SendEidosToSubscriber(string, System.Collections.Generic.List<Eido.EidoType>)
+  fullName.vb: Ng911CadIfLib.Ng911CadIfServer.SendEidosToSubscriber(String, System.Collections.Generic.List(Of Eido.EidoType))
+  nameWithType: Ng911CadIfServer.SendEidosToSubscriber(string, List<EidoType>)
   nameWithType.vb: Ng911CadIfServer.SendEidosToSubscriber(String, List(Of EidoType))
 - uid: Ng911CadIfLib.Ng911CadIfServer.SendEidosToSubscriber*
   name: SendEidosToSubscriber
@@ -174,6 +180,19 @@ references:
   isSpec: "True"
   fullName: Ng911CadIfLib.Ng911CadIfServer.Shutdown
   nameWithType: Ng911CadIfServer.Shutdown
+- uid: Ng911CadIfLib.Ng911CadIfServer.ShutdownAsync
+  name: ShutdownAsync()
+  href: api/Ng911CadIfLib.Ng911CadIfServer.html#Ng911CadIfLib_Ng911CadIfServer_ShutdownAsync
+  commentId: M:Ng911CadIfLib.Ng911CadIfServer.ShutdownAsync
+  fullName: Ng911CadIfLib.Ng911CadIfServer.ShutdownAsync()
+  nameWithType: Ng911CadIfServer.ShutdownAsync()
+- uid: Ng911CadIfLib.Ng911CadIfServer.ShutdownAsync*
+  name: ShutdownAsync
+  href: api/Ng911CadIfLib.Ng911CadIfServer.html#Ng911CadIfLib_Ng911CadIfServer_ShutdownAsync_
+  commentId: Overload:Ng911CadIfLib.Ng911CadIfServer.ShutdownAsync
+  isSpec: "True"
+  fullName: Ng911CadIfLib.Ng911CadIfServer.ShutdownAsync
+  nameWithType: Ng911CadIfServer.ShutdownAsync
 - uid: Ng911CadIfLib.Ng911CadIfServer.Start
   name: Start()
   href: api/Ng911CadIfLib.Ng911CadIfServer.html#Ng911CadIfLib_Ng911CadIfServer_Start

@@ -1,5 +1,4 @@
 {
-  "homepages": [],
   "source_base_path": "C:/_MyProjects/Ng911CadIfLibDocumentation",
   "xrefmap": "xrefmap.yml",
   "files": [
@@ -9,19 +8,16 @@
         "resource": {
           "relative_path": "index.json"
         }
-      },
-      "is_incremental": false
+      }
     },
     {
       "type": "Conceptual",
       "source_relative_path": "LICENSE.md",
       "output": {
         ".html": {
-          "relative_path": "LICENSE.html",
-          "hash": "hURJLyB/QI+qP7EdPNZErOTn0JoDslMYHkMkXuJjt44="
+          "relative_path": "LICENSE.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -29,11 +25,9 @@
       "source_relative_path": "README.md",
       "output": {
         ".html": {
-          "relative_path": "README.html",
-          "hash": "ylZHuA6LTOqlUyOqbSmETgPrX3Rq84mukV6gIiKrmRo="
+          "relative_path": "README.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -41,11 +35,9 @@
       "source_relative_path": "api/Ng911CadIfLib.CadIfLoggingSettings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Ng911CadIfLib.CadIfLoggingSettings.html",
-          "hash": "BLMsKFdAG0lJkm52AX5mBFmZY0l3fk1vQYPZMltv4uY="
+          "relative_path": "api/Ng911CadIfLib.CadIfLoggingSettings.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -53,11 +45,9 @@
       "source_relative_path": "api/Ng911CadIfLib.EidoRequestReceivedDelegate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Ng911CadIfLib.EidoRequestReceivedDelegate.html",
-          "hash": "Fp+gE0Spaf/V6pB3iyVQnWLf3u36V5JMuYaExLWXzbs="
+          "relative_path": "api/Ng911CadIfLib.EidoRequestReceivedDelegate.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -65,11 +55,9 @@
       "source_relative_path": "api/Ng911CadIfLib.EidoResponseSentDelegate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Ng911CadIfLib.EidoResponseSentDelegate.html",
-          "hash": "iusPapLAPIJ4hil42c9BP08pb334EeAbB3R2kgy/oxI="
+          "relative_path": "api/Ng911CadIfLib.EidoResponseSentDelegate.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -77,11 +65,9 @@
       "source_relative_path": "api/Ng911CadIfLib.EidoRetrievalCallbackDelegate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Ng911CadIfLib.EidoRetrievalCallbackDelegate.html",
-          "hash": "/DiR53yXFvYDEeQhGAB5M4qtV57Rgny2fSu7lTt8apY="
+          "relative_path": "api/Ng911CadIfLib.EidoRetrievalCallbackDelegate.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -89,11 +75,9 @@
       "source_relative_path": "api/Ng911CadIfLib.MutualAuthenticationDelegate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Ng911CadIfLib.MutualAuthenticationDelegate.html",
-          "hash": "PNBx9n8BqjE3i9L5O/5t8lA/9YTyfzo7NO8aXfxwft8="
+          "relative_path": "api/Ng911CadIfLib.MutualAuthenticationDelegate.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -101,11 +85,9 @@
       "source_relative_path": "api/Ng911CadIfLib.NewSubscriptionDelegate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Ng911CadIfLib.NewSubscriptionDelegate.html",
-          "hash": "br5nEHDPKZlTG3SuRQ3rllqEI9wzXRjVUSh4D/2VBI8="
+          "relative_path": "api/Ng911CadIfLib.NewSubscriptionDelegate.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -113,11 +95,9 @@
       "source_relative_path": "api/Ng911CadIfLib.Ng911CadIfServer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Ng911CadIfLib.Ng911CadIfServer.html",
-          "hash": "ICKgH5UihdjO/7343nMddekpZPQgfI1TWQzvRHoSVcs="
+          "relative_path": "api/Ng911CadIfLib.Ng911CadIfServer.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -125,11 +105,9 @@
       "source_relative_path": "api/Ng911CadIfLib.SubscriptionEndedDelegate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Ng911CadIfLib.SubscriptionEndedDelegate.html",
-          "hash": "23LGR8u8uZt84X7/S7gkduaq4dyxAnQjeyKEMkrPIbU="
+          "relative_path": "api/Ng911CadIfLib.SubscriptionEndedDelegate.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -137,11 +115,9 @@
       "source_relative_path": "api/Ng911CadIfLib.WssConectionEndedDelegate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Ng911CadIfLib.WssConectionEndedDelegate.html",
-          "hash": "mqp8MQC4B9Mb2uqlrBly/Pl9j43ize86ky3PGrKl3pQ="
+          "relative_path": "api/Ng911CadIfLib.WssConectionEndedDelegate.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -149,11 +125,9 @@
       "source_relative_path": "api/Ng911CadIfLib.WssConnectionAcceptedDelegate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Ng911CadIfLib.WssConnectionAcceptedDelegate.html",
-          "hash": "XFvDqRU80oD+Q+wC90L3XzJ7cBqSJK61+SjlBgIHvJE="
+          "relative_path": "api/Ng911CadIfLib.WssConnectionAcceptedDelegate.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -161,11 +135,9 @@
       "source_relative_path": "api/Ng911CadIfLib.WssMessageReceivedDelegate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Ng911CadIfLib.WssMessageReceivedDelegate.html",
-          "hash": "CVu58NoSubjDqIrXV4BymUREeuwqQzCzdgrfBPkqlm4="
+          "relative_path": "api/Ng911CadIfLib.WssMessageReceivedDelegate.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -173,11 +145,9 @@
       "source_relative_path": "api/Ng911CadIfLib.WssMessageSentDelegate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Ng911CadIfLib.WssMessageSentDelegate.html",
-          "hash": "/6G5n6RxHatcBxLU7f4Np7F7erxsQ3D+Rtk1Ihp3qFE="
+          "relative_path": "api/Ng911CadIfLib.WssMessageSentDelegate.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -185,11 +155,9 @@
       "source_relative_path": "api/Ng911CadIfLib.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Ng911CadIfLib.html",
-          "hash": "0t1TnT02Pkc99lkxrm1YEllUyIh316svBdyrQ+7UWLE="
+          "relative_path": "api/Ng911CadIfLib.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -197,11 +165,19 @@
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
-          "relative_path": "api/index.html",
-          "hash": "N4l1x6kTumMYBDUzT2dAsFp3hUyixc5P+DYXBsv/Xds="
+          "relative_path": "api/index.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
       "version": ""
     },
     {
@@ -209,11 +185,19 @@
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {
-          "relative_path": "articles/intro.html",
-          "hash": "pM4c6j8OAM3pCKAcA+lLYzQbw9iT98TvUuHX+I5DIuA="
+          "relative_path": "articles/intro.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
       "version": ""
     },
     {
@@ -224,7 +208,6 @@
           "relative_path": "images/CadIfBlockDiagram.jpg"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -232,63 +215,22 @@
       "source_relative_path": "index.md",
       "output": {
         ".html": {
-          "relative_path": "index.html",
-          "hash": "1aJgL0bdHHzRf+B4NdKHsKAM5zFfAhX+I8kaFjRJOHs="
+          "relative_path": "index.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
       "version": ""
     }
   ],
-  "incremental_info": [
-    {
-      "status": {
-        "can_incremental": true,
-        "incrementalPhase": "build",
-        "total_file_count": 0,
-        "skipped_file_count": 0
-      },
-      "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 5,
-          "skipped_file_count": 5
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 13,
-          "skipped_file_count": 12
-        },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        }
-      }
-    },
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
-        "incrementalPhase": "postProcessing",
-        "total_file_count": 0,
-        "skipped_file_count": 0
-      },
-      "processors": {}
-    }
-  ],
-  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"
