@@ -1,8 +1,9 @@
 # The Ng911CadIfLib Class Library
 The Ng911CadIfLib is a Microsoft .NET DLL class library that NG9-1-1 PSAP Call Handling Functional Element (CHFE) applications can use to provide conveyance of EIDOs to one or more Computer Aided Dispatch (CAD) systems. The following block diagram shows the interfaces between the PSAP CHFE, the Ng911CadIfServer class and a CAD system.
 
-![NG9-1-1 CAD I/F Library Block Diagram](~/images/CadIfBlockDiagram.jpg)
-The PSAP CHFE application interacts with the Ng911CadIf component via API methods. The Ng911CadIfServer component uses events and asynchronous callbacks to notify the PSAP CHFE when certain events occur. The Ng911CadIfServer component implements the NENA EIDO conveyance subscribe/notify protocol specified in the [NENA-STA-024.1a-2023](https://cdn.ymaws.com/www.nena.org/resource/resmgr/standards/nena-sta-024.1a-2023_eidocon.pdf). This protocol uses WEB Sockets ([RFC 6455](https://datatracker.ietf.org/doc/html/rfc6455)) as the transport mechanism for JSON messages.
+![NG9-1-1 CAD I/F Library Block Diagram](~/images/Ng911CadIfBlockDiagram.jpg)
+
+The PSAP CHFE application interacts with the Ng911CadIfServer class via API methods. The Ng911CadIfServer class uses events and asynchronous callbacks to notify the PSAP CHFE when certain events occur. The Ng911CadIfServer class implements the NENA EIDO conveyance subscribe/notify protocol specified in the [NENA-STA-024.1a-2023](https://cdn.ymaws.com/www.nena.org/resource/resmgr/standards/nena-sta-024.1a-2023_eidocon.pdf). This protocol uses WEB Sockets ([RFC 6455](https://datatracker.ietf.org/doc/html/rfc6455)) as the transport mechanism for JSON messages.
 
 CAD systems communicate with the Ng911CadIfServer using the Web Socket interface defined in NENA-STA-024.1a-2020 standard. A CAD system must subscribe to the Ng911CadServer in order to receive event notification messages containing Emergency Incident Data Object (EIDO).
 

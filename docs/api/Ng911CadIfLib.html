@@ -96,7 +96,19 @@
 
                         <ul class="nav level2">
                           <li class="">
+                            <a href="Ng911CadIfLib.CadIfConnectionStateDelegate.html" title="CadIfConnectionStateDelegate" class="">CadIfConnectionStateDelegate</a>
+                          </li>
+                          <li class="">
                             <a href="Ng911CadIfLib.CadIfLoggingSettings.html" title="CadIfLoggingSettings" class="">CadIfLoggingSettings</a>
+                          </li>
+                          <li class="">
+                            <a href="Ng911CadIfLib.CadIfSubscriptionStateDelegate.html" title="CadIfSubscriptionStateDelegate" class="">CadIfSubscriptionStateDelegate</a>
+                          </li>
+                          <li class="">
+                            <a href="Ng911CadIfLib.CadIfWebSocketClient.html" title="CadIfWebSocketClient" class="">CadIfWebSocketClient</a>
+                          </li>
+                          <li class="">
+                            <a href="Ng911CadIfLib.EidoReceivedDelegateType.html" title="EidoReceivedDelegateType" class="">EidoReceivedDelegateType</a>
                           </li>
                           <li class="">
                             <a href="Ng911CadIfLib.EidoRequestReceivedDelegate.html" title="EidoRequestReceivedDelegate" class="">EidoRequestReceivedDelegate</a>
@@ -153,6 +165,19 @@ Classes
       <h4><a class="xref" href="Ng911CadIfLib.CadIfLoggingSettings.html">CadIfLoggingSettings</a></h4>
       <section><p>Class for specifying the settings for NG9-1-1 event logging for the Ng911CadIfServer class.</p>
 </section>
+      <h4><a class="xref" href="Ng911CadIfLib.CadIfWebSocketClient.html">CadIfWebSocketClient</a></h4>
+      <section><p>This class implements the client side of the NG9-1-1 Emergency Incident Data Object (EIDO) transport protocol specified in
+the document entitled &quot;NENA Standard for the Conveyance of Emergency Incident Data Objects (EIDOs) between Next
+Generation (NG9-1-1) Systems and Applications&quot;, NENA-STA-024.1a-2023.</p>
+<p>
+The transport protocol between the client and the EIDO server uses WEB sockets. The client subscribes to the server and
+the server sends notification message containing one or more EIDOs to the client when they become available.
+</p>
+<p>
+When the client receives an EIDO from the server, it fires an event containing the EIDO to the application or component
+using this class.
+</p>
+</section>
       <h4><a class="xref" href="Ng911CadIfLib.Ng911CadIfServer.html">Ng911CadIfServer</a></h4>
       <section><p>Class that provides a EIDO conveyance interface between the PSAP CHFE and one or more CAD systems.
 See NENA-STA-024.1a-2023.</p>
@@ -160,6 +185,15 @@ See NENA-STA-024.1a-2023.</p>
     <h3 id="delegates">
 Delegates
 </h3>
+      <h4><a class="xref" href="Ng911CadIfLib.CadIfConnectionStateDelegate.html">CadIfConnectionStateDelegate</a></h4>
+      <section><p>Delegate type for the CadIfConnectionState event of the CadIfWebSocketClient class.</p>
+</section>
+      <h4><a class="xref" href="Ng911CadIfLib.CadIfSubscriptionStateDelegate.html">CadIfSubscriptionStateDelegate</a></h4>
+      <section><p>Delegate type for the CadIfSubsriptionState event of the CadIfWebSocketClient class.</p>
+</section>
+      <h4><a class="xref" href="Ng911CadIfLib.EidoReceivedDelegateType.html">EidoReceivedDelegateType</a></h4>
+      <section><p>Delegate type for the EidoReceived event of the CadIfWebSocketClient class.</p>
+</section>
       <h4><a class="xref" href="Ng911CadIfLib.EidoRequestReceivedDelegate.html">EidoRequestReceivedDelegate</a></h4>
       <section><p>Delegate for the EidoRequestReceived event of the Ng911CadIfServer class.</p>
 </section>

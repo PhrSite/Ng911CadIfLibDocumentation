@@ -96,7 +96,19 @@
 
                         <ul class="nav level2">
                           <li class="">
+                            <a href="Ng911CadIfLib.CadIfConnectionStateDelegate.html" title="CadIfConnectionStateDelegate" class="">CadIfConnectionStateDelegate</a>
+                          </li>
+                          <li class="">
                             <a href="Ng911CadIfLib.CadIfLoggingSettings.html" title="CadIfLoggingSettings" class="">CadIfLoggingSettings</a>
+                          </li>
+                          <li class="">
+                            <a href="Ng911CadIfLib.CadIfSubscriptionStateDelegate.html" title="CadIfSubscriptionStateDelegate" class="">CadIfSubscriptionStateDelegate</a>
+                          </li>
+                          <li class="">
+                            <a href="Ng911CadIfLib.CadIfWebSocketClient.html" title="CadIfWebSocketClient" class="">CadIfWebSocketClient</a>
+                          </li>
+                          <li class="">
+                            <a href="Ng911CadIfLib.EidoReceivedDelegateType.html" title="EidoReceivedDelegateType" class="">EidoReceivedDelegateType</a>
                           </li>
                           <li class="">
                             <a href="Ng911CadIfLib.EidoRequestReceivedDelegate.html" title="EidoRequestReceivedDelegate" class="">EidoRequestReceivedDelegate</a>
@@ -176,14 +188,14 @@
         <td><span class="parametername">strIdType</span></td>
         <td><p>Identifies the type of functional element that subscribed to receive EIDO
 notification events. This information is from the idType field of the other name field of the
-SubjectAltName of the client X.509 certificate that was issued by the PSAP Credentialing Agency (PSAP).
+SubjectAltName of the subscriber's X.509 certificate that was issued by the PSAP Credentialing Agency (PCA).
 Will be null if the subscriber did not provide a client certificate.</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">strId</span></td>
-        <td><p>ID of the subscriber from the X.509 certificate. Will be null if the subscriber did
+        <td><p>ID of the subscriber from the subscriber's X.509 certificate. Will be null if the subscriber did
 not provide a client certificate</p>
 </td>
       </tr>

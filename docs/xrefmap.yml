@@ -7,6 +7,12 @@ references:
   commentId: N:Ng911CadIfLib
   fullName: Ng911CadIfLib
   nameWithType: Ng911CadIfLib
+- uid: Ng911CadIfLib.CadIfConnectionStateDelegate
+  name: CadIfConnectionStateDelegate
+  href: api/Ng911CadIfLib.CadIfConnectionStateDelegate.html
+  commentId: T:Ng911CadIfLib.CadIfConnectionStateDelegate
+  fullName: Ng911CadIfLib.CadIfConnectionStateDelegate
+  nameWithType: CadIfConnectionStateDelegate
 - uid: Ng911CadIfLib.CadIfLoggingSettings
   name: CadIfLoggingSettings
   href: api/Ng911CadIfLib.CadIfLoggingSettings.html
@@ -65,6 +71,87 @@ references:
   isSpec: "True"
   fullName: Ng911CadIfLib.CadIfLoggingSettings.ElementId
   nameWithType: CadIfLoggingSettings.ElementId
+- uid: Ng911CadIfLib.CadIfSubscriptionStateDelegate
+  name: CadIfSubscriptionStateDelegate
+  href: api/Ng911CadIfLib.CadIfSubscriptionStateDelegate.html
+  commentId: T:Ng911CadIfLib.CadIfSubscriptionStateDelegate
+  fullName: Ng911CadIfLib.CadIfSubscriptionStateDelegate
+  nameWithType: CadIfSubscriptionStateDelegate
+- uid: Ng911CadIfLib.CadIfWebSocketClient
+  name: CadIfWebSocketClient
+  href: api/Ng911CadIfLib.CadIfWebSocketClient.html
+  commentId: T:Ng911CadIfLib.CadIfWebSocketClient
+  fullName: Ng911CadIfLib.CadIfWebSocketClient
+  nameWithType: CadIfWebSocketClient
+- uid: Ng911CadIfLib.CadIfWebSocketClient.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Net.Security.RemoteCertificateValidationCallback,System.String,System.Int32)
+  name: CadIfWebSocketClient(X509Certificate2, RemoteCertificateValidationCallback, string, int)
+  href: api/Ng911CadIfLib.CadIfWebSocketClient.html#Ng911CadIfLib_CadIfWebSocketClient__ctor_System_Security_Cryptography_X509Certificates_X509Certificate2_System_Net_Security_RemoteCertificateValidationCallback_System_String_System_Int32_
+  commentId: M:Ng911CadIfLib.CadIfWebSocketClient.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Net.Security.RemoteCertificateValidationCallback,System.String,System.Int32)
+  name.vb: New(X509Certificate2, RemoteCertificateValidationCallback, String, Integer)
+  fullName: Ng911CadIfLib.CadIfWebSocketClient.CadIfWebSocketClient(System.Security.Cryptography.X509Certificates.X509Certificate2, System.Net.Security.RemoteCertificateValidationCallback, string, int)
+  fullName.vb: Ng911CadIfLib.CadIfWebSocketClient.New(System.Security.Cryptography.X509Certificates.X509Certificate2, System.Net.Security.RemoteCertificateValidationCallback, String, Integer)
+  nameWithType: CadIfWebSocketClient.CadIfWebSocketClient(X509Certificate2, RemoteCertificateValidationCallback, string, int)
+  nameWithType.vb: CadIfWebSocketClient.New(X509Certificate2, RemoteCertificateValidationCallback, String, Integer)
+- uid: Ng911CadIfLib.CadIfWebSocketClient.#ctor*
+  name: CadIfWebSocketClient
+  href: api/Ng911CadIfLib.CadIfWebSocketClient.html#Ng911CadIfLib_CadIfWebSocketClient__ctor_
+  commentId: Overload:Ng911CadIfLib.CadIfWebSocketClient.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Ng911CadIfLib.CadIfWebSocketClient.CadIfWebSocketClient
+  fullName.vb: Ng911CadIfLib.CadIfWebSocketClient.New
+  nameWithType: CadIfWebSocketClient.CadIfWebSocketClient
+  nameWithType.vb: CadIfWebSocketClient.New
+- uid: Ng911CadIfLib.CadIfWebSocketClient.CadIfConnectionState
+  name: CadIfConnectionState
+  href: api/Ng911CadIfLib.CadIfWebSocketClient.html#Ng911CadIfLib_CadIfWebSocketClient_CadIfConnectionState
+  commentId: E:Ng911CadIfLib.CadIfWebSocketClient.CadIfConnectionState
+  fullName: Ng911CadIfLib.CadIfWebSocketClient.CadIfConnectionState
+  nameWithType: CadIfWebSocketClient.CadIfConnectionState
+- uid: Ng911CadIfLib.CadIfWebSocketClient.CadIfSubscriptionState
+  name: CadIfSubscriptionState
+  href: api/Ng911CadIfLib.CadIfWebSocketClient.html#Ng911CadIfLib_CadIfWebSocketClient_CadIfSubscriptionState
+  commentId: E:Ng911CadIfLib.CadIfWebSocketClient.CadIfSubscriptionState
+  fullName: Ng911CadIfLib.CadIfWebSocketClient.CadIfSubscriptionState
+  nameWithType: CadIfWebSocketClient.CadIfSubscriptionState
+- uid: Ng911CadIfLib.CadIfWebSocketClient.EidoReceived
+  name: EidoReceived
+  href: api/Ng911CadIfLib.CadIfWebSocketClient.html#Ng911CadIfLib_CadIfWebSocketClient_EidoReceived
+  commentId: E:Ng911CadIfLib.CadIfWebSocketClient.EidoReceived
+  fullName: Ng911CadIfLib.CadIfWebSocketClient.EidoReceived
+  nameWithType: CadIfWebSocketClient.EidoReceived
+- uid: Ng911CadIfLib.CadIfWebSocketClient.Shutdown
+  name: Shutdown()
+  href: api/Ng911CadIfLib.CadIfWebSocketClient.html#Ng911CadIfLib_CadIfWebSocketClient_Shutdown
+  commentId: M:Ng911CadIfLib.CadIfWebSocketClient.Shutdown
+  fullName: Ng911CadIfLib.CadIfWebSocketClient.Shutdown()
+  nameWithType: CadIfWebSocketClient.Shutdown()
+- uid: Ng911CadIfLib.CadIfWebSocketClient.Shutdown*
+  name: Shutdown
+  href: api/Ng911CadIfLib.CadIfWebSocketClient.html#Ng911CadIfLib_CadIfWebSocketClient_Shutdown_
+  commentId: Overload:Ng911CadIfLib.CadIfWebSocketClient.Shutdown
+  isSpec: "True"
+  fullName: Ng911CadIfLib.CadIfWebSocketClient.Shutdown
+  nameWithType: CadIfWebSocketClient.Shutdown
+- uid: Ng911CadIfLib.CadIfWebSocketClient.Start
+  name: Start()
+  href: api/Ng911CadIfLib.CadIfWebSocketClient.html#Ng911CadIfLib_CadIfWebSocketClient_Start
+  commentId: M:Ng911CadIfLib.CadIfWebSocketClient.Start
+  fullName: Ng911CadIfLib.CadIfWebSocketClient.Start()
+  nameWithType: CadIfWebSocketClient.Start()
+- uid: Ng911CadIfLib.CadIfWebSocketClient.Start*
+  name: Start
+  href: api/Ng911CadIfLib.CadIfWebSocketClient.html#Ng911CadIfLib_CadIfWebSocketClient_Start_
+  commentId: Overload:Ng911CadIfLib.CadIfWebSocketClient.Start
+  isSpec: "True"
+  fullName: Ng911CadIfLib.CadIfWebSocketClient.Start
+  nameWithType: CadIfWebSocketClient.Start
+- uid: Ng911CadIfLib.EidoReceivedDelegateType
+  name: EidoReceivedDelegateType
+  href: api/Ng911CadIfLib.EidoReceivedDelegateType.html
+  commentId: T:Ng911CadIfLib.EidoReceivedDelegateType
+  fullName: Ng911CadIfLib.EidoReceivedDelegateType
+  nameWithType: EidoReceivedDelegateType
 - uid: Ng911CadIfLib.EidoRequestReceivedDelegate
   name: EidoRequestReceivedDelegate
   href: api/Ng911CadIfLib.EidoRequestReceivedDelegate.html

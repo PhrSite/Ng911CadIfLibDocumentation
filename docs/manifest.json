@@ -32,10 +32,50 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Ng911CadIfLib.CadIfConnectionStateDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ng911CadIfLib.CadIfConnectionStateDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Ng911CadIfLib.CadIfLoggingSettings.yml",
       "output": {
         ".html": {
           "relative_path": "api/Ng911CadIfLib.CadIfLoggingSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ng911CadIfLib.CadIfSubscriptionStateDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ng911CadIfLib.CadIfSubscriptionStateDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ng911CadIfLib.CadIfWebSocketClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ng911CadIfLib.CadIfWebSocketClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ng911CadIfLib.EidoReceivedDelegateType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ng911CadIfLib.EidoReceivedDelegateType.html"
         }
       },
       "version": ""
@@ -182,6 +222,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/SpecificationCompliance.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/SpecificationCompliance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {
@@ -202,10 +252,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/CadIfBlockDiagram.jpg",
+      "source_relative_path": "images/Ng911CadIfBlockDiagram.jpg",
       "output": {
         "resource": {
-          "relative_path": "images/CadIfBlockDiagram.jpg"
+          "relative_path": "images/Ng911CadIfBlockDiagram.jpg"
         }
       },
       "version": ""
