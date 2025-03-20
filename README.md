@@ -1,3 +1,8 @@
+# Deprecated -- 20 Mar 2025
+The contents of this repository have been moved to the Documentation directory of the Ng911CadIfLib repository so this repository will no longer be maintained. See https://github.com/PhrSite/Ng911CadIfLib.
+
+The GitHub pages for the Ng911CadIfLib repository are now located at: https://phrsite.github.io/Ng911CadIfLib.
+
 # The Ng911CadIfLibDocumentation Project
 This is the GitHub Pages documentation project for the Ng911CadIfLib class library.
 
